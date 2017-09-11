@@ -1,0 +1,197 @@
+
+.searchbar {
+  margin: 1rem;
+}
+
+.search-field {
+  width: 0;
+  height: 40px;
+  margin-left: 1rem;
+  padding: 0;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.expand-search {
+  width: 80%;
+  max-width: calc(80% - 3rem);
+  border: 1px solid #c9c9c9;
+  padding: .5rem;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  border-radius: 50px;
+}
+
+/*----------------------------------------------*/
+
+
+.show-password {
+  width: 100%;
+}
+
+.show-password label {
+  position: absolute;
+  left: -9999px;
+  text-indent: -9999px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password + .unmask {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-indent: -9999px;
+  width: 25px;
+  height: 25px;
+  background: #aaa;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  -webkit-appearance: none;
+}
+
+.password + .unmask:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 17px;
+  height: 17px;
+  background: #e3e3e3;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.password[type="text"] + .unmask:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 13px;
+  height: 13px;
+  background: #aaa;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+/*.......................................................*/
+
+
+nav {
+  text-align: left;
+  right: 0;
+  top: 0;
+}
+
+a {
+  width: inherit;
+}
+
+main {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  /*float: right;*/
+  padding: 30px;
+  /*background-image: url("../img/roof.jpg");*/
+  background-color: grey;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: inline-block;
+}
+
+.dashboard-nav-card {
+  background: #1779ba;
+  border-radius: 0;
+  color: #fefefe;
+  min-height: 100px;
+  padding: 2rem;
+  position: relative;
+  text-align: right;
+  width: 250px;
+  float: right;
+  top: 0;
+}
+
+.dashboard-nav-card:hover .dashboard-nav-card-title,
+.dashboard-nav-card:hover .dashboard-nav-card-icon {
+  color: lightgreen;
+}
+
+.dashboard-nav-card:hover .dashboard-nav-card-icon {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+.dashboard-nav-card-icon {
+  font-size: 1.25rem;
+  left: 1rem;
+  opacity: 0.5;
+  position: absolute;
+  top: 1rem;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.dashboard-nav-card-title {
+  bottom: 0;
+  position: absolute;
+  right: 1rem;
+  text-align: right;
+}
+
+.beatit {
+  background-color: lightgrey;
+  height: 100%; 
+}
+
+.beatit p {
+  font-size: 2em;
+  margin: auto;
+  vertical-align: center;
+}
+
+footer {
+  background-color: black;
+  height: 150px;
+  width: 100%;
+}
+
+/*--------------------------------------------*/
+
+#timedate {
+  font: small-caps bold 43px/150% Arial, Helvetica, sans-serif;
+  text-align:left;
+  width: 50%;
+  margin: 20px auto;
+  color:#333;
+  border-left: 20px solid yellow;
+  padding: 20px;
+}
+/*--------------------------------*/
