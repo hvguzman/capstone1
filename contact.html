@@ -3,14 +3,203 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<title>Counting Sheep - Contact Page</title>
+	<title>Chasing Sheep - Contact Page</title>
 	<link rel="stylesheet" type="text/css" href="css/foundation.css">
-	<link rel="stylesheet" type="text/css" href="css/app3.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/app3.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/app2.css">
+	<link rel="stylesheet" type="text/css" href="css/app4.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- put map -->
+<div class="top">
 
+	<div class="top-bar-container" data-sticky-container>
+	  <div class="sticky sticky-topbar" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+	    <div class="top-bar">
+	      <div class="top-bar-left">
+	        <ul class="dropdown menu" data-dropdown-menu>
+	          <!-- <li><img class="logo" src="img/logo.png"></li> -->
+	          <div class="circle"><img src="img/run.png"></div>
+	          <div class="circle"><img src="img/sheep.png"></div>
+	          <li class="menu menu-text"><p class="chasing">C</p>hasin<p class="g">g_S</p>hee<p class="sheep">p</p></li>
+	        </ul>
+	      </div>
+	      <div class="top-bar-right">
+	        <ul class="menu">
+				<!-- username and pword source code: http://foundation.zurb.com/building-blocks/blocks/show-password.html-->
+				<form class="show-password">
+				  <div class="username-wrapper">
+					 <label for="username">Your Login</label>
+					 <input type="text" value="" placeholder="Enter Username" id="username">
+				  </div>
+				  <div class="password-wrapper">
+				    <label for="password">Your Password</label>
+				    <input type="password" value="" placeholder="Enter Password" id="password" class="password">
+				  </div>
+
+				  <div class="submitwrap">
+				  	<button class="button">Login</button>
+				  </div>
+				</form>
+				<!-- <div class="input-group input-group-rounded">
+				  <input class="input-group-field" type="search">
+				  <div class="input-group-button">
+				   <input type="submit" class="button secondary" value="Search">
+				  </div>
+				</div> -->
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+<div class="navcontain">
+		
+		
+		<nav>
+			<a class="card dashboard-nav-card" href="home.html">
+		  		<i class="dashboard-nav-card-icon fa fa-home" aria-hidden="true"></i>
+		  		<h3 class="dashboard-nav-card-title">Home</h3>
+			</a>
+		</nav>
+
+		<nav>
+			<a class="card dashboard-nav-card" href="about.html">
+		  		<i class="dashboard-nav-card-icon fa fa-question-circle" aria-hidden="true"></i>
+		  		<h3 class="dashboard-nav-card-title">About</h3>
+			</a>
+		</nav>
+
+		<nav>
+			<a class="card dashboard-nav-card" href="sleeptest.html">
+		  		<i class="dashboard-nav-card-icon fa fa-bed" aria-hidden="true"></i>
+		  		<h3 class="dashboard-nav-card-title">Sleep Survey</h3>
+			</a>
+		</nav>
+
+		<nav>
+			<a class="card dashboard-nav-card" href="contact.html">
+		  		<i class="dashboard-nav-card-icon fa fa-telegram" aria-hidden="true"></i>
+		  		<h3 class="dashboard-nav-card-title">Contact</h3>
+			</a>
+				<div class="searchwrapper">
+				  <label class="searchlabel" for="search">Looking for something?</label>
+		          <input class="navsearch" type="search" placeholder="Search">
+		          <button type="button" class="button navsearch">Search</button>
+		        </div>
+
+		</nav>
+		
+		</nav>
+
+		        <div class="social-links">
+				  <div class="row">
+				    <div class="small-6 medium-3 columns text-center mobile-stack">
+				      <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+				    </div>
+				    <div class="small-6 medium-3 columns text-center mobile-stack">
+				      <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+				    </div>
+				    <div class="small-6 medium-3 columns text-center mobile-stack">
+				      <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i>Pinterest</a>
+				    </div>
+				    <div class="small-6 medium-3 columns text-center mobile-stack">
+				      <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+				    </div>
+				  </div>
+				</div>
+	</div>
+
+
+	<!-- <section class="contact-us-section">
+	  <div class="row medium-unstack">
+
+	    <div class="columns contact-us-section-left">
+	      <h1 class="contact-us-header">Get In Touch!</h1>
+	      <div class="responsive-embed">
+	        <img src="https://maps.googleapis.com/maps/api/staticmap?center=campbell&zoom=13&scale=false&size=600x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true" alt="Google Map of campbell" alt="Map" />
+	      </div>
+
+	      <ul class="contact-us-list">
+	        <li class="address">100 W Rincon Ave, Campbell CA 95008</li>
+	        <li class="email"><a id="email" href="mailto:">hello@yeticave.com</a></li>
+	        <li class="phone">
+	          1 (408) 445 9978
+	        </li>
+	      </ul>
+	    </div>
+
+	    <div class="columns contact-us-section-right">
+	      <h1 class="contact-us-header">Mail Me</h1>
+	      <form class="contact-us-form">
+	        <input type="text" placeholder="Full name">
+	        <input type="email" placeholder="Email">
+	        <textarea name="message" id="" rows="12" placeholder="Type your message here"></textarea>
+	        <div class="contact-us-form-actions">
+	          <input type="submit" class="button" value="Send it" />
+	          <div>
+	            <label for="FileUpload" class="button contact-us-file-button">Attach Files</label>
+	            <input type="file" id="FileUpload" class="show-for-sr">
+	          </div>
+	        </div>
+	      </form>
+	    </div>
+	  </div>
+	</section> -->
+<div class="mainbox">
+	
+		<div class="articlecontain">
+
+		
+			<section class="contact-us-section">
+			  <div class="row medium-unstack">
+
+			    <div class="columns contact-us-section-left">
+			      <h1 class="contact-us-header">Get In Touch!</h1>
+			      <div class="responsive-embed">
+			        <img src="https://maps.googleapis.com/maps/api/staticmap?center=campbell&zoom=13&scale=false&size=600x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true" alt="Google Map of campbell" alt="Map" />
+			      </div>
+
+			      <ul class="contact-us-list">
+			        <li class="address">100 W Rincon Ave, Campbell CA 95008</li>
+			        <li class="email"><a id="email" href="mailto:">hello@yeticave.com</a></li>
+			        <li class="phone">
+			          1 (408) 445 9978
+			        </li>
+			      </ul>
+			    </div>
+
+			</section>
+		</div>
+
+		<div class="articlecontain2">
+			    <div class="columns contact-us-section-right">
+			      <h1 class="contact-us-header">Mail Me</h1>
+			      <form class="contact-us-form">
+			        <input type="text" placeholder="Full name">
+			        <input type="email" placeholder="Email">
+			        <textarea name="message" id="" rows="12" placeholder="Type your message here"></textarea>
+			        <div class="contact-us-form-actions">
+			          <input type="submit" class="button" value="Send it" />
+			          <div>
+			            <label for="FileUpload" class="button contact-us-file-button">Attach Files</label>
+			            <input type="file" id="FileUpload" class="show-for-sr">
+			          </div>
+			        </div>
+			      </form>
+			    </div>
+			  </div>
+	
+</div>
+		
+	</div>
+	
+	
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 </body>
 </html>

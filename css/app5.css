@@ -1,0 +1,19 @@
+body {
+	 font-family: "Gochi Hand", serif;
+}
+
+/*--------------FORM----------------*/
+form {
+  /*display: inline;*/
+  /*width: 50%;*/
+}
+
+form .row label {
+  color: white;
+}
+
+.mainbox {
+	width: 350px;
+	float: left;
+	margin: 0 auto;
+}

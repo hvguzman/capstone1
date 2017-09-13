@@ -4,76 +4,116 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<title>Counting Sheep</title>
+	<title>Chasing Sheep</title>
 	<link rel="stylesheet" type="text/css" href="css/foundation.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/app2.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
 </head>
 
 <body>
 
-	<div class="spanwrap">
+	<!-- <div class="spanwrap">
 		<span>
-			<img src="" alt="logo">
-			<p>Counting Sheep</p>
+			 <div class="circle"><img src="img/run.png"></div>
+	         <div class="circle"><img src="img/sheep.png"></div>
+			<p class="chasingsheep">Chasing Sheep</p>
 		</span>
+	</div> -->
+
+	<div class="top">
+
+	<div class="top-bar-container" data-sticky-container>
+	  <div class="sticky sticky-topbar" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+	    <div class="top-bar">
+	      <div class="top-bar-left">
+	        <ul class="dropdown menu" data-dropdown-menu>
+	          <!-- <li><img class="logo" src="img/logo.png"></li> -->
+	          <div class="circle"><img src="img/run.png"></div>
+	          <div class="circle"><img src="img/sheep.png"></div>
+	          <li class="menu menu-text"><p class="chasing">C</p>hasin<p class="g">g_S</p>hee<p class="sheep">p</p></li>
+	        </ul>
+	      </div>
+	      <div class="top-bar-right">
+	        <ul class="menu">
+				<!-- username and pword source code: http://foundation.zurb.com/building-blocks/blocks/show-password.html-->
+				<form class="show-password">
+				  <div class="username-wrapper">
+					 <label for="username">Your Login</label>
+					 <input type="text" value="" placeholder="Enter Username" id="username">
+				  </div>
+				  <div class="password-wrapper">
+				    <label for="password">Your Password</label>
+				    <input type="password" value="" placeholder="Enter Password" id="password" class="password">
+				  </div>
+
+				  <div class="submitwrap">
+				  	<button class="button">Login</button>
+				  </div>
+				</form>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
 	</div>
+
+</div>
 
 	<header>
 		<div class="divwrap">
 		</div>
 		<div class="box">
-			<h1>Shouldn't you be asleep?</h1>
+			<h1>Should you be asleep right now?</h1>
 		</div>
 			<div class="buttonwrap">
-				<a href="#"><button class="button large">Yes</button></a>
-				<button class="button large">No</button>
+				<a href="#gotosleep"><button class="button large">Yes</button></a>
+				<a href="#learnmore"><button class="button large">No</button></a>
 			</div>
 	</header>
 
-	<div class="gosleep">
+	<a name="gotosleep"><div class="gosleep"></a>
 		<div class="divwrap">
 		</div>
 			<div class="box">
 				<h2>Go the f* to sleep.</h2>
 			</div>
 			<div class="buttonwrap">
-				<button class="button large">Ok.</button>
-				<button class="button large">I can't!</button>
+				<a href="https://www.youtube.com/watch?v=cxgdjsBe28Y');"><button class="button large">Ok.</button></a>
+				<a href="#cantsleep"><button class="button large">I can't!</button></a>
 			</div>
 	</div>
 
 	<div class="pc">
-		<div class="divwrap">
+		<a name="cantsleep"><div class="divwrap"></a>
 		</div>
 		<div class="box">
 			<h2>Because you literally can't or because you're not allowed to?</h2>
 		</div>
 			<div class="buttonwrap">
-				<button class="button large">I literally can't.</button>
-				<button class="button large">I can't because of work/school/life/etc.</button>	
+				<a href="#learnmore"><button class="button large">I literally can't.</button></a>
+				<a href="#ucan"><button class="button large">I can't because of work/school/life/etc.</button></a>	
 			</div>
 	</div>
 
-	<div class="learn">
+	<a name="learnmore"><div class="learn"></a>
 		<div class="divwrap"></div>
 		<div class="box">
-			<h2>Wanna learn more about sleep?</h2>			
+			<h2>Want to learn more about sleep?</h2>			
 		</div>
 			<div class="buttonwrap">
 				<a href="home.html"><button class="button large">Sure.</button></a>
-				<button class="button large">Nah.</button>	
+				<a href="https://www.google.com/"><button class="button large">Nah. Just take me back to Google.</button></a>	
 			</div>
 	</div>
 
-	<div class="believe">
+	<a name="ucan"><div class="believe"></a>
 		<h2>You can do it!</h2>
 		<p>Go the f* to sleep when you're done, m'kay?</p>
 		<div class="vidwrap vidwrap-16x9 vidwrap-4x3">
 			<iframe src="https://www.youtube.com/embed/KxGRhd_iWuE" allowfullscreen></iframe>
 		</div>
 	</div>
-
-
 
 
 </body>
