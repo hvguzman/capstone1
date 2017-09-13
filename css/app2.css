@@ -174,7 +174,6 @@ body {
 }
 
 .dashboard-nav-card-title {
-  bottom: 0;
   position: absolute;
   right: 1rem;
   text-align: right;
@@ -196,6 +195,7 @@ footer {
   float: right;
   height: 100%;
   padding: 7px;
+  margin: auto 0;
 }
 
 /*-------------ARTICLE CSS-----------------------*/
